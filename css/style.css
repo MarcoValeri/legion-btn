@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-btn-wrap {
+    width: 10rem;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(240deg, #3e8ddd 0%, #012b55 49%, #3e8ddd 80%, #3e8ddd 100%);
+    padding: 3px;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 1.5rem;
+
+    animation: legion 3s linear infinite;
+}
+
+.content-btn {
+    background: #222;
+    color: white;
+    padding: 2rem;
+}
+
+@keyframes legion {
+
+    to {
+        background-position: 10rem;
+    }
+
+}
